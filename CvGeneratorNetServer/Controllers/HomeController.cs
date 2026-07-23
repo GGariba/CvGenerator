@@ -15,7 +15,7 @@ namespace CvGeneratorServer.Controllers
         public IActionResult Index()
         {
             // 1. Read the JSON file from the server
-            var jsonPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "cv-data.json");
+            var jsonPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "data","cv-data.json");
             
             CvData cvData = new CvData();
             if (System.IO.File.Exists(jsonPath))
