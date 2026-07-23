@@ -27,4 +27,4 @@ Thumbs.db
 Desktop.ini
 
 # Private files
-wwwroot/cv-data.json
+CvGeneratorNetServer/wwwroot/cv-data.json
